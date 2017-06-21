@@ -1,6 +1,8 @@
 # simpleChatServer
 ------------------
 
+Real Time webChat server with NodeJS, Socket.io, ExpressJS and Jade as the template engine.
+
 #### Install & run
 
 ```
@@ -10,6 +12,7 @@ git clone https://github.com/Anirban2404/simpleChatServer.git && cd simpleChatSe
 ```
 node index.js
 ```
+or
 ```
 npm start
 ```
