@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "latest",
+    "ip": "^1.1.5",
     "jade": "^1.11.0",
     "shelljs": "^0.7.8",
     "socket.io": "^2.0.2"
   }
 }
+
