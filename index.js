@@ -7,10 +7,10 @@ var shell = require('shelljs');
 var io = require('socket.io').listen(app.listen(port));
 console.log("Listening on port " + port);
 
-require('dns').lookup(require('os').hostname(), function (err, addr, fam) {
-  //console.log('addr: '+addr);
-  shell.sed('-i', 'localhost', addr, 'public/chat.js');
-});
+// Getting ip address
+var ip = require("ip");
+var addr = ip.address();
+shell.sed('-i', 'localhost', addr, 'public/chat.js');
 
 // Creating the view
 app.set('views', __dirname + '/views');
