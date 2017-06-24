@@ -16,3 +16,4 @@ or
 ```
 npm start
 ```
+![Alt text](http://full/path/to/img.jpg "Screen Shot")
