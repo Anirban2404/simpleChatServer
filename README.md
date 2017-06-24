@@ -16,4 +16,4 @@ or
 ```
 npm start
 ```
-![Alt text](http://full/path/to/img.jpg "Screen Shot")
+![Alt text](https://github.com/Anirban2404/simpleChatServer/blob/master/screenshot.JPG "Screen Shot")
