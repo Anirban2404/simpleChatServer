@@ -1,7 +1,7 @@
 # simpleChatServer
 ------------------
 
-Real Time webChat server with NodeJS, Socket.io, ExpressJS and Jade as the template engine.
+Real Time webChat server with NodeJS, Socket.io, ExpressJS and Jade as the template engine. Port 3000
 
 #### Install & run
 
